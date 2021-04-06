@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "explosivemobs",
+  "version": "${version}",
+
+  "name": "Veins of gupowder",
+  "description": "Setting any entity on fire causes and instant explosion",
+  "authors": [
+    "InfernalSpark"
+  ],
+  "contact": {
+    "homepage": "https://www.twitter.com/ThatInfernal",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/explosivemobs/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "InfernalSpark.explosive.mobs.ExplosiveMobs"
+    ]
+  },
+  "mixins": [
+    "explosivemobs.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
