@@ -4,7 +4,7 @@
   "package": "InfernalSpark.explosive.mobs.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "LivingEntityMixin"
+    "MobEntityMixin"
   ],
   "client": [
     "ExampleMixin"
